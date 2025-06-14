@@ -1,0 +1,45 @@
+// lh top
+COMB(re_lprn, KC_LPRN, KC_R, KC_E)
+COMB(ew_lbrc, KC_LBRC, KC_E, KC_W)
+COMB(wq_lt, KC_LT, KC_W, KC_Q)
+COMB(rw_lcbr, KC_LCBR, KC_R, KC_W)
+COMB(eq_tild, KC_TILD, KC_E, KC_Q)
+
+// lh home
+COMB(fd_mins, KC_MINS, KC_F, KC_D)
+COMB(ds_unds, KC_UNDS, KC_D, KC_S)
+COMB(sa_plus, KC_PLUS, KC_S, KC_A)
+COMB(fs_eql, KC_EQL, KC_F, KC_S)
+COMB(da_at, KC_AT, KC_D, KC_A)
+
+// lh bot
+COMB(vc_slsh, KC_SLSH, LSFT_T(KC_V), LCTL_T(KC_C))
+COMB(cx_bsls, KC_BSLS, LCTL_T(KC_C), LALT_T(KC_X))
+COMB(xz_astr, KC_ASTR, LALT_T(KC_X), LGUI_T(KC_Z))
+COMB(vx_pipe, KC_PIPE, LSFT_T(KC_V), LALT_T(KC_X))
+
+// rh top
+COMB(ui_rprn, KC_RPRN, KC_U, KC_I)
+COMB(io_rbrc, KC_RBRC, KC_I, KC_O)
+COMB(op_gt, KC_GT, KC_O, KC_P)
+COMB(uo_rcbr, KC_RCBR, KC_U, KC_O)
+COMB(ip_circ, KC_CIRC, KC_I, KC_P)
+
+// rh home
+COMB(jk_quot, KC_QUOT, KC_J, KC_K)
+COMB(kl_dquo, KC_DQUO, KC_K, KC_L)
+COMB(lscln_grv, KC_GRV, KC_L, KC_SCLN)
+COMB(jl_hash, KC_HASH, KC_J, KC_L)
+COMB(kscln_perc, KC_PERC, KC_K, KC_SCLN)
+
+COMB(hk_coln, KC_COLN, KC_H, KC_K)
+COMB(hl_scln, KC_SCLN, KC_H, KC_L)
+
+// rh bot
+COMB(mcomm_ampr, KC_AMPR, RSFT_T(KC_M), RCTL_T(KC_COMM))
+COMB(commdot_exlm, KC_EXLM, RCTL_T(KC_COMM), RALT_T(KC_DOT))
+COMB(dotslsh_ques, KC_QUES, RALT_T(KC_DOT), RGUI_T(KC_SLSH))
+COMB(mdot_dlr, KC_DLR, RSFT_T(KC_M), RALT_T(KC_DOT))
+
+// f + j leader
+COMB(fj_lead, QK_LEAD, KC_F, KC_J)
