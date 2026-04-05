@@ -16,6 +16,13 @@
 #define ALT_DOT RALT_T(KC_DOT)
 #define GUI_SLSH RGUI_T(KC_SLSH)
 
+// QWERTY left bottom row one-handed undo, cut, copy, paste
+// Mixed success with dedicated K_* keycodes for these functions in programs otherwise
+#define UNDO LCTL(KC_Z)
+#define CUT LCTL(KC_X)
+#define COPY LCTL(KC_C)
+#define PASTE LCTL(KC_V)
+
 // Gallium v2 left bottom home row mods (mod tap)
 #define SFT_W LSFT_T(KC_W)
 #define CTL_M LCTL_T(KC_M)
@@ -61,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [2] = LAYOUT_split_3x6_3(
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_2,    XXXXXXX,                      XXXXXXX, KC_2,    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, UNDO,    CUT,     COPY,    PASTE,   XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
                                         _______, _______, _______,    _______, MO(8),   _______
   ),
 
